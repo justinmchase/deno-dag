@@ -15,7 +15,7 @@ export class GraphError extends Error {
 /**
  * Khan's algorithm for topographical sorting
  * https://en.wikipedia.org/wiki/Topological_sorting#Kahn's_algorithm
- * 
+ *
  * L ← Empty list that will contain the sorted elements
  * S ← Set of all nodes with no incoming edges
  * while S is non-empty do
@@ -29,11 +29,11 @@ export class GraphError extends Error {
  *   return error (graph has at least one cycle)
  * else
  * return L (a topologically sorted order)
- * 
+ *
  * note:
  * 'no incoming edges' means no dependencies on.
  * This means that edges is an index of what other targets depend on it.
- * 
+ *
  * @param {ITarget[]} targets
  * @returns {ITarget[]} The targets sorted
  */
