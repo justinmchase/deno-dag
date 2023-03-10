@@ -2,7 +2,9 @@
 
 A Directed Asyclic Graph (DAG) resolver for Deno
 
-Based on [Kahn's algorithm](https://en.wikipedia.org/wiki/Topological_sorting#Kahn's_algorithm) for topographical sorting.
+Based on
+[Kahn's algorithm](https://en.wikipedia.org/wiki/Topological_sorting#Kahn's_algorithm)
+for topographical sorting.
 
 # Setup
 
